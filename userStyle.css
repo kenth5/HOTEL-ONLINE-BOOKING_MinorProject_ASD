@@ -22,7 +22,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed; 
-    font-family: 'Julius Sans One', 'Lucida Sans';
+    font-family: 'Julius Sans One', sans-serif;
 }
 
 
@@ -49,47 +49,17 @@ body{
     text-align: center;
 }
 
-#forAbout{
-    margin-top: 300px;
-    height: 700px;
-    background-color: #EDEDED;
-    text-align: center;
-}
-
-#paraHotel{
-    position: absolute;
-    margin-left: 620px;
-    margin-top: 50px;
-    text-align: right;
-}
-
-#paraHotel2{
-    position: absolute;
-    margin-left: 250px;
-    margin-top: 70px;
-}
-
-
-#rona, #king, #rox, #kenth{
-    padding-top: 30px;
-}
-
-#about1, #about2, #about3, #about4{
-    width: 240px;
-    height: 400px;
-    background-color: #f4f4f4;
-    float: left;
-    margin-left: 80px;
-    margin-top: 180px;
-    border-style: solid;
-    border-color: #0F5959;
-    border-radius: 5px;
-}
-
 #para{
     margin-left: 160px;
     margin-right: 160px;
     line-height: 1.75;
+}
+
+#forAbout{
+    margin-top: 300px;
+    height: 500px;
+    background-color: #EDEDED;
+    text-align: center;
 }
 
 
@@ -175,25 +145,10 @@ body{
     background-color: gray;
 }
 
-#theMiddle4{
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 410px;
-    height: 50px;
-    margin-top: 250px;
-    margin-left: auto;
-    margin-right: auto;
-    letter-spacing: 5px;
-    word-spacing: 2px;
-    text-align: center;
-    background-color: gray;
-}
-
 
 #dropdown{
     text-align: center;
-    padding: 1px;
+    padding: 2px;
     color: #ffffff;
     border: hidden;
     padding-top: 1px;
@@ -202,7 +157,7 @@ body{
     font-size: 16px;
     text-align: right;
     background-color: #051D1D;
-    font-family: 'Julius Sans One', 'Lucida Sans';
+    font-family: 'Julius Sans One';
 }
 
 #hotelOffers{
@@ -216,7 +171,6 @@ body{
     margin-left: 11px;
     width: 150px;
     height: 200px;
-    background-color: red;
     float: left;
     border-radius: 5px;
     background-color: #7A2647;
@@ -271,12 +225,8 @@ h4{
     color: #ffffff;
 }
 
-#theMiddleTag4{
-    padding-top: 15px;
-    color: #ffffff;
-}
-
 #forFooter{
+    margin-top: 600px;
     height: 70px;
     background-color: #1D1C1C;
     text-align: center;
